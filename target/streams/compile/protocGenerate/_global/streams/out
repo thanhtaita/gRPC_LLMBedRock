@@ -1,0 +1,4 @@
+[debug] Invalidating cache (input changed)
+[info] Compiling 1 protobuf files to C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\src_managed\main\scalapb
+[debug] protoc options:
+[debug] Compiling schema C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\protobuf\llm_service.proto

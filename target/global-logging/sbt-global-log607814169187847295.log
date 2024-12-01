@@ -1,0 +1,10 @@
+[debug] > Exec(runMain llm_service.llm_service.LLMServer, None, None)
+[debug] Evaluating tasks: Compile / runMain
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Canceling execution...
+[debug] Forcing garbage collection...
+[warn] Canceling execution...
+[error] Cancelled: runMain llm_service.llm_service.LLMServer
+[error] Cancelled: runMain llm_service.llm_service.LLMServer
+[error] Use 'last' for the full log.
+[debug] > Exec(idea-shell, None, None)

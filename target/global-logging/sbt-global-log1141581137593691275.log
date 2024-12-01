@@ -1,0 +1,7 @@
+[debug] > Exec(runMain llm_service.llm_service.LLMServer, None, None)
+[debug] Evaluating tasks: Compile / runMain
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[error] Nonzero exit code returned from runner: 1
+[error] (Compile / runMain) Nonzero exit code returned from runner: 1
+[error] Total time: 6 s, completed Nov 30, 2024, 8:03:54 PM
+[debug] > Exec(idea-shell, None, None)

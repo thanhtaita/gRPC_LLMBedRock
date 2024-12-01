@@ -1,0 +1,27 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes ...
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMClient.scala:13:19: not found: value ManagedChannelBuilder
+[error]     val channel = ManagedChannelBuilder
+[error]                   ^
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMClient.scala:25:54: value QueryResponse is not a member of llm_service.llm_service.TextGeneratorGrpc.TextGeneratorStub
+[error]     val responseFuture: Future[QueryResponse] = stub.QueryResponse(request)
+[error]                                                      ^
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMClient.scala:30:46: value message is not a member of llm_service.llm_service.QueryResponse
+[error]         println(s"Received response: ${reply.message}")
+[error]                                              ^
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMServer.scala:8:39: unknown parameter name: reponse
+[error]     val reply = QueryResponse(reponse = "The answer for the question: " + req.query + " is together we make something great for humanity")
+[error]                                       ^
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMServer.scala:23:17: not found: type Server
+[error]     val server: Server = ServerBuilder
+[error]                 ^
+[error] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\LLMServer.scala:23:26: not found: value ServerBuilder
+[error]     val server: Server = ServerBuilder
+[error]                          ^
+[error] 6 errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed Nov 30, 2024, 4:30:31 PM
+[debug] > Exec(idea-shell, None, None)

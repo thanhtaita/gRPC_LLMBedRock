@@ -1,0 +1,86 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$QueryResponseLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$QueryRequestLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$QueryResponseLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$QueryRequestLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$QueryResponseLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient_Akka$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmServiceProto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryRequest$QueryRequestLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	QueryResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UserRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TextGeneratorGrpc$TextGeneratorBlockingStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LLMClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes.bak[0m

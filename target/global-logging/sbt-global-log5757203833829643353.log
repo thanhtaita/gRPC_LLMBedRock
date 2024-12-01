@@ -1,0 +1,12 @@
+[debug] > Exec(reStart, None, None)
+[debug] Evaluating tasks: reStart
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Application root not yet started
+[info] Starting application root in the background ...
+[success] Total time: 16 s, completed Nov 30, 2024, 7:05:24 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,9 @@
+[debug] > Exec(runMain llm_service.llm_service.LLMServer, None, None)
+[debug] Evaluating tasks: Compile / runMain
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 8 Scala sources to C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes ...
+[warn] C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\scala\llm_service\llm_service\UserRoutes.scala:14:16: Implicit definition should have explicit type (inferred scala.concurrent.ExecutionContextExecutor) [quickfixable]
+[warn]   implicit val ec = system.executionContext
+[warn]                ^
+[warn] one warning found
+[info] done compiling

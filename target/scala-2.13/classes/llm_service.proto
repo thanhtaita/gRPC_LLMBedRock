@@ -1,0 +1,17 @@
+syntax = "proto3";
+package llm_service;
+
+service TextGenerator {
+  // get the message from the AWS Bedrock's LLM
+  rpc GetMessage (QueryRequest) returns (QueryResponse){}
+}
+
+// the query for the LLM
+message QueryRequest{
+  string query = 1;
+}
+
+// the response from the LLM
+message QueryResponse{
+  string response = 1;
+}
