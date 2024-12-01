@@ -1,0 +1,53 @@
+# SBT directories
+/.idea/                         # IntelliJ IDEA project files
+/.classpath                     # Eclipse classpath file
+/.project                       # Eclipse project file
+/.settings/                     # Eclipse settings folder
+/.target/                       # Build output folder
+/.history/                      # Eclipse local history
+/out/                           # IntelliJ or IDE build folder
+/.bloop/                        # Bloop build server files
+/.metals/                       # Metals Scala LSP files
+/.ammonite/                     # Ammonite cache
+
+# SBT-generated files
+/target/                        # Compiled files and output
+/project/target/                # Target for the project subdirectory
+/project/project/target/        # Target for meta-project
+
+# IDE-specific files
+*.iml                           # IntelliJ IDEA module files
+*.ipr                           # IntelliJ IDEA project files
+*.iws                           # IntelliJ IDEA workspace files
+.DS_Store                       # macOS metadata files
+*.swp                           # vi swap files
+/.vscode/                       # Visual Studio Code settings
+
+# Logs and temporary files
+/logs/                          # Logs
+*.log                           # Log files
+*.tmp                           # Temp files
+*.bak                           # Backup files
+
+# OS-specific files
+Thumbs.db                       # Windows thumbnail cache
+ehthumbs.db                     # Windows thumbnail cache
+*.DS_Store                      # macOS metadata
+._*                             # macOS hidden files
+.Spotlight-V100                 # macOS indexing files
+.Trashes                        # macOS trash folder
+desktop.ini                     # Windows desktop metadata
+
+# Dependency cache
+/lib_managed/
+/src_managed/
+/ivy2/
+/.coursier/
+/.cache/
+/dist/
+
+# Environment files
+.env                            # Environment variables
+
+# SBT Plugin directories
+/plugins/project/target/
