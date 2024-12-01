@@ -6,3 +6,6 @@
 [0m[[0m[33mwarn[0m] [0m[0m  implicit val ec = system.executionContext[0m
 [0m[[0m[33mwarn[0m] [0m[0m               ^[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 910 s (15:10), completed Nov 30, 2024, 9:05:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
