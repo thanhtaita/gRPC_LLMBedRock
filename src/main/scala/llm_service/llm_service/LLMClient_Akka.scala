@@ -11,7 +11,13 @@ import llm_service.llm_service.{TextGeneratorGrpc, QueryRequest}
 import scala.concurrent.ExecutionContextExecutor
 import scala.util.{Failure, Success}
 
+import org.slf4j.LoggerFactory
+
+
 object LLMClient_Akka {
+
+  val log = LoggerFactory.getLogger(this.getClass)
+
   private def startHttpServer(routes: Route)(implicit system: ActorSystem[_]): Unit = {
     implicit val ec: ExecutionContextExecutor = system.executionContext
 

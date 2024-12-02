@@ -32,15 +32,33 @@ lazy val root = (project in file("."))
       "com.typesafe.akka" %% "akka-actor-typed"         % akkaVersion,
       "com.typesafe.akka" %% "akka-stream"              % akkaVersion,
       "com.typesafe.akka" %% "akka-pki"                 % akkaVersion,
-      "ch.qos.logback"    % "logback-classic"           % "1.5.7",
+
+      "com.softwaremill.sttp.client3" %% "core" % "3.9.7",
+      "com.softwaremill.sttp.client3" %% "circe" % "3.9.7",
+      "io.circe" %% "circe-generic" % "0.14.9",
+      "io.circe" %% "circe-parser" % "0.14.9",
+
+      "org.slf4j" % "slf4j-api" % "2.0.12",               // SLF4J 2.x for logging
+      "ch.qos.logback" % "logback-classic" % "1.5.7",
+      "com.typesafe" % "config" % "1.4.3",
 
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
       "org.scalatest"     %% "scalatest"                % "3.2.19"        % Test
     ),
 
-    assemblyMergeStrategy := {
-      case x if x.contains("io.netty.versions.properties") => MergeStrategy.discard
-      case x => MergeStrategy.first
+    fork := true,
+    javaOptions += "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED",
+
+    assembly / assemblyMergeStrategy := {
+      case PathList("META-INF", xs @ _*) =>
+        xs match {
+          case "MANIFEST.MF" :: Nil     => MergeStrategy.discard
+          case "services" :: _          => MergeStrategy.concat
+          case _                        => MergeStrategy.discard
+        }
+      case "reference.conf"            => MergeStrategy.concat
+      case x if x.endsWith(".proto")   => MergeStrategy.rename
+      case _                           => MergeStrategy.first
     }
   )
