@@ -1,5 +1,8 @@
 # Bedrock Lambda Function and ChatGPT-like Application
 
+### Walkthrough video
+[Video](https://youtu.be/8ODKkjPXfZA)
+
 ### Code
 [Bedrock Lambda GitHub Repository](https://github.com/thanhtaita/bedrock-lambda)
 
