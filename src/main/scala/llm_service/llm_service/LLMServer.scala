@@ -1,15 +1,16 @@
 package llm_service.llm_service
 
+import com.typesafe.config.ConfigFactory
+
 import scala.concurrent.{ExecutionContext, Future}
 import io.grpc.{Server, ServerBuilder}
 import io.circe.syntax._
 import io.circe.generic.auto._
 import org.slf4j.LoggerFactory
-
 import sttp.client3.HttpURLConnectionBackend
-import sttp.client3._                           // For basicRequest and HTTP client features
-import sttp.client3.circe._                     // For JSON serialization/deserialization using Circe
-import sttp.model.MediaType                     // For MediaType (e.g., ApplicationJson)
+import sttp.client3._
+import sttp.client3.circe._
+import sttp.model.MediaType
 import io.circe.parser                           // For parsing JSON responses
 
 
@@ -54,10 +55,11 @@ private class TextGeneratorImpl(apiGatewayUrl: String) extends TextGeneratorGrpc
 
 object LLMServer {
   val log = LoggerFactory.getLogger(this.getClass)
+  val config =  ConfigFactory.load("application.conf")
   def main(args: Array[String]): Unit = {
     // Specify the port for the server to listen on
-    val port = 50051
-    val apiGatewayUrl = "https://007n3plc9f.execute-api.us-east-1.amazonaws.com/default/llm-bedrock" // Replace with your API Gateway URL
+    val port = config.getInt("app.apiGateway.port")
+    val apiGatewayUrl = config.getString("app.apiGateway.url")
 
     // Create a thread-safe execution context
     implicit val ec: ExecutionContext = ExecutionContext.global

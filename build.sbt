@@ -44,7 +44,10 @@ lazy val root = (project in file("."))
 
       "com.typesafe.akka" %% "akka-http-testkit"        % akkaHttpVersion % Test,
       "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion     % Test,
-      "org.scalatest"     %% "scalatest"                % "3.2.19"        % Test
+
+      "org.scalatest" %% "scalatest" % "3.2.19" % Test,        // ScalaTest for AnyFlatSpec
+      "org.scalatestplus" %% "mockito-4-6" % "3.2.15.0" % Test, // ScalaTest Mockito integration for MockitoSugar
+
     ),
 
     fork := true,

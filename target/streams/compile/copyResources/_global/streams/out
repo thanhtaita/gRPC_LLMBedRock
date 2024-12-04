@@ -1,2 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\protobuf\llm_service.proto,C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\llm_service.proto)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\resources\application.conf,C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\taita\IdeaProjects\CS441-hw3-nta3\src\main\resources\logback.xml,C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\logback.xml)[0m

@@ -1,5 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\cs441-hw3-nta3_2.13-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\application.conf[0m
 [0m[[0m[0mdebug[0m] [0m[0m	llm_service[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\llm_service[0m
 [0m[[0m[0mdebug[0m] [0m[0m	llm_service\llm_service[0m
@@ -58,4 +60,6 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\llm_service\llm_service\UserRoutes.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	llm_service.proto[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\llm_service.proto[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\taita\IdeaProjects\CS441-hw3-nta3\target\scala-2.13\classes\logback.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
