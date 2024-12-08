@@ -3,6 +3,9 @@
 ### Walkthrough video
 [Video](https://youtu.be/8ODKkjPXfZA)
 
+### Dockerize process, host images on ECR, and run on EC2
+[Video](https://youtu.be/6o0tBruMk8U)
+
 ### Code
 [Bedrock Lambda GitHub Repository](https://github.com/thanhtaita/bedrock-lambda)
 
