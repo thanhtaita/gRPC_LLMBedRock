@@ -1,7 +1,7 @@
 # Bedrock Lambda Function and ChatGPT-like Application
 
 ### Code
-[Bedrock Lambda GitHub Repository](https://github.com/thanhtaita/bedrock-lambda)
+[Bedrock Lambda GitHub Repository](https://github.com/thanhtaita/lambdaFunc_bedrock)
 
 ### General Idea
 Create a ChatGPT-like application utilizing AWS resources such as **EC2**, **Lambda functions**, **API Gateway**, and **Bedrock**. The main purpose is not to optimize speed but to explore the use of diverse tools and frameworks, such as **gRPC**, **Akka HTTP**, and various AWS services.
