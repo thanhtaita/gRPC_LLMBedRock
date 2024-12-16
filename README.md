@@ -1,11 +1,5 @@
 # Bedrock Lambda Function and ChatGPT-like Application
 
-### Walkthrough video
-[Video](https://youtu.be/8ODKkjPXfZA)
-
-### Dockerize process, host images on ECR, and run on EC2
-[Video](https://youtu.be/6o0tBruMk8U)
-
 ### Code
 [Bedrock Lambda GitHub Repository](https://github.com/thanhtaita/bedrock-lambda)
 
@@ -47,7 +41,7 @@ Create a ChatGPT-like application utilizing AWS resources such as **EC2**, **Lam
 #### 1. Akka gRPC Client and gRPC Server
 To run the Akka gRPC client and server locally:
 
-1. Clone the repository: git clone CS441-hw3-nta3
+1. Clone the repository: git clone gRPC_LLMBedRock
 2. Build and run the server: sbt clean -> sbt reload -> sbt update -> sbt combine -> run llm_service.llm_service.LLMServer
 3. Open another terminal, direct to the project path sbt run llm_service.llm_service.LLMClient_Akka
 4. Send a query using curl: curl "localhost:8080/llm?query=What%20is%20the%20largest%20animal?"
